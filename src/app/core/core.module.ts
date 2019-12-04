@@ -1,8 +1,8 @@
 import { CommonModule } from "@angular/common";
 import { NgModule, Optional, SkipSelf } from "@angular/core";
-import { FooterComponent } from "src/app/ui/footer/footer.component";
-import { HeaderComponent } from "src/app/ui/header/header.component";
-import { LayoutComponent } from "src/app/ui/layout/layout.component";
+import { FooterComponent } from "src/app/core/components/footer/footer.component";
+import { HeaderComponent } from "src/app/core/components/header/header.component";
+import { LayoutComponent } from "src/app/core/components/layout/layout.component";
 
 const components = [LayoutComponent, HeaderComponent, FooterComponent];
 
