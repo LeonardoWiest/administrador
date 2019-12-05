@@ -7,9 +7,46 @@
 #sidebar {
   min-width: 250px;
   max-width: 250px;
-  background: #717171;
-  color: #fff;
+  background: #f6f6f6;
   transition: all 0.3s;
+}
+
+.header {
+  height: 45px;
+  background-color: #0081bd;
+
+  .toggle {
+    float: right;
+
+    button {
+      background-color: #066996;
+      border-radius: 0;
+      height: 45px;
+      width: 50px;
+    }
+  }
+}
+
+.search {
+  height: 60px;
+  background-color: orange;
+}
+
+.steps {
+  padding: 0;
+  height: 52px;
+}
+
+.step {
+  width: 32.5%;
+  height: 30px;
+  display: inline-block;
+  margin: 1px;
+  background-color: #e6e6e6;
+
+  &.active {
+    border-bottom: 3px solid #0081bd;
+  }
 }
 
 #content {
