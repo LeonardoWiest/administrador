@@ -3,8 +3,14 @@ import { NgModule, Optional, SkipSelf } from "@angular/core";
 import { FooterComponent } from "src/app/core/components/footer/footer.component";
 import { HeaderComponent } from "src/app/core/components/header/header.component";
 import { LayoutComponent } from "src/app/core/components/layout/layout.component";
+import { MenuComponent } from "src/app/shared/components/menu/menu.component";
 
-const components = [LayoutComponent, HeaderComponent, FooterComponent];
+const components = [
+  MenuComponent,
+  LayoutComponent,
+  HeaderComponent,
+  FooterComponent
+];
 
 @NgModule({
   declarations: [components],
