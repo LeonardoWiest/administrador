@@ -1,5 +1,9 @@
+.content {
+  min-width: 100vw;
+}
+
 @media (min-width: 768px) {
-  #page-content-wrapper {
+  .content {
     min-width: 0;
     width: 100%;
   }

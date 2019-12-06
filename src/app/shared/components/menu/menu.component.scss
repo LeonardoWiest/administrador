@@ -1,4 +1,4 @@
-#sidebar-wrapper {
+#menu {
   min-height: 100vh;
   margin-left: -15rem;
   -webkit-transition: margin 0.25s ease-out;
@@ -7,17 +7,17 @@
   transition: margin 0.25s ease-out;
 }
 
-#sidebar-wrapper .sidebar-heading {
+#menu .header {
   padding: 0.875rem 1.25rem;
   font-size: 1.2rem;
 }
 
-#sidebar-wrapper .list-group {
+#menu .list-group {
   width: 15rem;
 }
 
 @media (min-width: 768px) {
-  #sidebar-wrapper {
+  #menu {
     margin-left: 0;
   }
 }
