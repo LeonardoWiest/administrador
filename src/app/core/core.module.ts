@@ -1,14 +1,14 @@
 import { CommonModule } from "@angular/common";
 import { NgModule, Optional, SkipSelf } from "@angular/core";
 import { FooterComponent } from "src/app/core/components/footer/footer.component";
-import { HeaderComponent } from "src/app/core/components/header/header.component";
 import { LayoutComponent } from "src/app/core/components/layout/layout.component";
+import { HeaderComponent } from "src/app/shared/components/header/header.component";
 import { MenuComponent } from "src/app/shared/components/menu/menu.component";
 
 const components = [
+  HeaderComponent,
   MenuComponent,
   LayoutComponent,
-  HeaderComponent,
   FooterComponent
 ];
 
